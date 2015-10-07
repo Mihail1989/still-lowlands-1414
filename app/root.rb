@@ -10,7 +10,7 @@ module App
       cache = RunningRack.cache.empty? ? 'Используем веб...' : 'Используем кеш...'
       @res = Rack::Response.new
 
-      @res.write '<title>Lobstericious!</title>'
+      @res.write '<title>Беговые дорожки Москвы</title>'
       @res.write "<p>#{cache}</p>"
       @res.write "<p><a href='?clean=yes'>crash!</a></p>"
       @res.write '<pre>'
