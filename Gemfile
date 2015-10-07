@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.1.5'
 gem 'rack'
 gem 'json'
 gem 'terminal-table'
